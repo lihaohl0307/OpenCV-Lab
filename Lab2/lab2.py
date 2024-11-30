@@ -39,10 +39,6 @@ img_copy[harris_corners > 0.01 * harris_corners.max()] = [0, 0, 255]
 
 
 
-# Keypoint Detection 
-
-
-
 
 # Display the different images with unique window names
 cv2.imshow("Original Image", img)
